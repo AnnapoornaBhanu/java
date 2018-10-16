@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+ position:relative;
+z-index:2;
+font-size:17px;
+background-color:#5f5f5f;
+color:#f1f1f1;
+width:100%;
+padding:0;
+letter-spacing:2px;
+font-family:"Segoe UI",Arial,sans-serif;
+
+}
+
+li a
+{
+
+ display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover
+{
+	display: block;
+     background-color: blue;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<h2>List Group</h2>
+<p>Transform a basic list into a list group:</p>
+
+<ul>
+  <li><a href="aj">Adele</a></li>
+  <li>Agnes</li>
+  <li>Billy</li>
+  <li>Bob</li>
+  <li>Calvin</li>
+  <li>Christina</li>
+  <li>Cindy</li>
+</ul>
+
+</body>
+</html>
